@@ -14,4 +14,12 @@
         var x = 1}
       console.log(x)// Þetta verður 5
       
-7. 
+7. Standard function:
+    function x(){}
+   Breyta í function:
+    var y = function(){}
+   Örva fall:
+    [1, 2, 3].map(x => x * 2);
+    
+8. 'use strict' segir þýðanda að það eigi að uppfylla strangar málfræði kröfur sem komu í ECMASript 5
+9. Því að javascript notar host til þess að endur raða kóðanum í þýðandanum og setur breytur og föll efst.
