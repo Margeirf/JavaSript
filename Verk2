@@ -1,1 +1,17 @@
 1. ECMAScript er grunnur sem mörg scripting tungumál eins og javascript eru byggð á
+2. Þýðandinn hjálpar þér með ýmislegt, hann reynir að giska svolítið á hvað þú ert að reyna að gera ef þú setur það ekki fram alveg rétt
+3. Bæði merkin gegna sama hlutverki en ef þú ætlar að nota eitt inn í streng er betra að hafa hitt merkið utan um hann.
+4. Null og undefined eru í raun data types sem eru notaðar sem placeholders áður en gögnin eru sett inn í breytuna.
+5. "===" er það sem kallað er 'strict' sem þýðir að það ber saman gagna týpuna en ekki innihaldið.
+6. let virkar eins pg local breytur en var virkar eins og global breytur.
+  let: 
+      if(true){
+        let x = 1} 
+      console.log(x)// Þetta verður undefined
+      
+  var:
+      if(true){
+        var x = 1}
+      console.log(x)// Þetta verður 5
+      
+7. 
